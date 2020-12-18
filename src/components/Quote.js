@@ -1,7 +1,14 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import styled from "styled-components";
-import {SPACING, BORDER, FONT, IMAGE, COLOR, CONTENT_WIDTH} from '../constants';
+import {
+  SPACING,
+  BORDER,
+  FONT,
+  IMAGE,
+  COLOR,
+  CONTENT_WIDTH,
+} from "../constants";
 
 const StyledBlockquote = styled.blockquote`
   background: ${COLOR.WHITE};
@@ -13,7 +20,8 @@ const StyledBlockquote = styled.blockquote`
   border: 1px solid ${COLOR.GREY.LIGHT};
 
   @media only screen and (min-width: ${CONTENT_WIDTH}) {
-    flex-direction: ${props => props.characterDirection === 'Right' ? 'row-reverse' : 'row' };
+    flex-direction: ${(props) =>
+      props.characterDirection === "Right" ? "row-reverse" : "row"};
     justify-content: center;
     align-items: center;
   }
@@ -32,29 +40,30 @@ const StyledQuote = styled.p`
 
   @media only screen and (min-width: ${CONTENT_WIDTH}) {
     margin-top: 0;
-    margin-${props => props.characterDirection === 'Right' ? 'left' : 'right'}: ${SPACING.M};
+    margin-${(props) =>
+      props.characterDirection === "Right" ? "left" : "right"}: ${SPACING.M};
   }
 `;
 
-const Quote = ({quote}) => {
-  const {quote: quoteText, character, image, characterDirection} = quote;
-  
+const Quote = ({ quote }) => {
+  const { quote: quoteText, character, image, characterDirection } = quote;
+
   return (
     <StyledBlockquote characterDirection={characterDirection}>
       <StyledImg src={image} alt={character} />
       <StyledQuote>{quoteText}</StyledQuote>
     </StyledBlockquote>
-);}
+  );
+};
 
 Quote.propTypes = {
-    quote: PropTypes.shape({
-            quote: PropTypes.string.isRequired,
-              
-            character: PropTypes.string.isRequired,
-            image:
-              PropTypes.string.isRequired,
-            characterDirection: PropTypes.oneOf(['Left', 'Right']).isRequired,
-      }).isRequired,
-}
+  quote: PropTypes.shape({
+    quote: PropTypes.string.isRequired,
+
+    character: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    characterDirection: PropTypes.oneOf(["Left", "Right"]).isRequired,
+  }).isRequired,
+};
 
 export default Quote;

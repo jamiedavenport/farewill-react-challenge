@@ -34,7 +34,7 @@ const StyledButton = styled.button`
   }
 `;
 
-const Button = props => {
+const Button = (props) => {
   return <StyledButton {...props} />;
 };
 

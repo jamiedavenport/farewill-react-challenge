@@ -45,7 +45,6 @@ You should follow the designs, but you don't have to match them exactly. If you 
 
 ![Quote task narrow](https://cdn.glitch.com/ca443201-d6f2-4d35-b5c6-8ae30c922edb%2Fquote_task_narrow.png?v=1595602131478)
 
-
 #### Technology
 
 The provided application uses JavaScript, React, and styled-components. You're welcome to use other libraries if you're more familiar with them and think they're suitable.
@@ -64,6 +63,7 @@ The provided application uses JavaScript, React, and styled-components. You're w
 If you don't want to use Glitch for any reason, you can [download the project](https://glitch.happyfox.com/kb/article/26-how-can-i-download-or-backup-my-glitch-project/) and submit your completed task via email attachment or another platform such as GitHub.
 
 #### What we're looking for
+
 - First off, we're looking to see whether you have solved the problem (or have written a good awareness of what would be needed if you haven't finished)
 - We're looking at things like your code readability
 - We're also going to look at the way you've chosen to structure it

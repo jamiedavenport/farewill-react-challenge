@@ -53,6 +53,6 @@ export const SPACING = {
 
 export const IMAGE = {
   SIZE: "200px",
-}
+};
 
 export const CONTENT_WIDTH = "900px";

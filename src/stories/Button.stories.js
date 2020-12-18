@@ -1,11 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import Button from '../components/Button';
+import Button from "../components/Button";
 
 export default {
-  title: 'Farewill/Button',
+  title: "Farewill/Button",
   component: Button,
 };
 
 export const Default = () => <Button>Test</Button>;
-
