@@ -32,11 +32,10 @@
     "@storybook/node-logger": "^6.1.11",
     "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/react": "^6.1.11",
-    "babel-loader": "^8.2.2",
+    "babel-loader": "8.1.0",
     "husky": "^4.3.6",
     "lint-staged": "^10.5.3",
-    "prettier": "^2.2.1",
-    "react-docgen": "^5.3.1"
+    "prettier": "^2.2.1"
   },
   "husky": {
     "hooks": {

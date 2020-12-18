@@ -3,9 +3,9 @@
 ## Setup
 
 ```bash
-npm install
-npm storybook
-npm start
+yarn install
+yarn storybook
+yarn start
 ```
 
 ## Thoughts and reasonings behind your decisions
