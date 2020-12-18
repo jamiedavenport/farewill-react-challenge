@@ -28,8 +28,7 @@ One of my goals was to treat this challenge as though the project was real and w
 ## What could have gone better?
 
 - Technical issues with Glitch. I've never used it before and ran into a few issues so I've moved to GH to combat this.
-- Should've started off by upgrading the dependencies.
-- Problems getting the tests to run
+- Should've started off by upgrading the dependencies because I've had some issues with installing/running SB and RTL because of this
 
 ## Is there anything particular you'd like to come back and improve if you had time? Why?
 
