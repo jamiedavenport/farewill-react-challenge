@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import styled from "styled-components";
 import {
   SPACING,
@@ -9,6 +8,7 @@ import {
   COLOR,
   CONTENT_WIDTH,
 } from "../constants";
+import quoteType from "../types/quote";
 
 const StyledBlockquote = styled.blockquote`
   background: ${COLOR.WHITE};
@@ -57,13 +57,7 @@ const Quote = ({ quote }) => {
 };
 
 Quote.propTypes = {
-  quote: PropTypes.shape({
-    quote: PropTypes.string.isRequired,
-
-    character: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-    characterDirection: PropTypes.oneOf(["Left", "Right"]).isRequired,
-  }).isRequired,
+  quote: quoteType,
 };
 
 export default Quote;
