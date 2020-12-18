@@ -7,10 +7,14 @@ import QuoteGrid from "./QuoteGrid";
 import fetchQuotes from "../fetchQuotes";
 import { CONTENT_WIDTH, SPACING } from "../constants";
 
-const StyledContentWrapper = styled.div`
+const StyledContentWrapper = styled.main`
   margin: 0 auto;
   max-width: ${CONTENT_WIDTH};
   padding: ${SPACING.L};
+`;
+
+const StyledQuoteWrapper = styled.div`
+  margin-top: ${SPACING.L};
 `;
 
 const App = () => {
@@ -36,7 +40,9 @@ const App = () => {
       <StyledContentWrapper>
         <Button onClick={() => loadQuotes()}>Load quotes</Button>
 
-        {isLoading ? <span>Loading...</span> : <QuoteGrid quotes={quotes} />}
+        <StyledQuoteWrapper>
+          {isLoading ? <span>Loading...</span> : <QuoteGrid quotes={quotes} />}
+        </StyledQuoteWrapper>
       </StyledContentWrapper>
     </>
   );

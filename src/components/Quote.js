@@ -18,6 +18,7 @@ const StyledBlockquote = styled.blockquote`
   display: flex;
   flex-direction: column;
   border: 1px solid ${COLOR.GREY.LIGHT};
+  margin: 0;
 
   @media only screen and (min-width: ${CONTENT_WIDTH}) {
     flex-direction: ${(props) =>
