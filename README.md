@@ -35,6 +35,7 @@ One of my goals was to treat this challenge as though the project was real and w
 - ESLint. To prevent and fix issues throughout the codebase. Specifically https://www.npmjs.com/package/eslint-plugin-jsx-a11y to aid in building an accessible UI. 
 - Use a cross-browser testing tool.
 - Better loading and error states within the app.
+- Switch the sizing scales from px to ems/rems to respect the user's preferences
 
 ### General Improvements
 
