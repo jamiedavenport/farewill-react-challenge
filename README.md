@@ -45,3 +45,7 @@ These are just some other general considerations for how I'd continue the projec
 - CI (test, build, lint)
 
 ## What I've gained from doing the challenge
+
+Throughout this challenge I've also discovered some areas where I need to improve:
+
+- CSS Grid
