@@ -20,9 +20,10 @@ One of my goals was to treat this challenge as though the project was real and w
 ## What went well?
 
 - Styled Components
-- Semantic HTML elements
-- Lighthouse
+- Tried to use semantic HTML elements wherever possible
+- Used Lighthouse to check that the app has no obvious accessibility errors
 - Storybook
+- Written some basic tests for the App
 
 ## What could have gone better?
 
