@@ -22,7 +22,6 @@ const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   const loadQuotes = async () => {
-    // TODO: Handle error state
     setIsLoading(true);
     const { data } = await fetchQuotes();
     setQuotes(data);
