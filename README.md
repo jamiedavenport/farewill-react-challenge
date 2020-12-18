@@ -18,7 +18,7 @@ yarn start
 ## What went well?
 
 - Semantic HTML elements
-- Lighthouse and ESLint A11y plugins
+- Lighthouse
 - Storybook
 
 ## What could have gone better?
@@ -28,6 +28,8 @@ yarn start
 - Problems getting the tests to run
 
 ## Is there anything particular you'd like to come back and improve if you had time? Why?
+
+- ESLint
 
 ### General Improvements
 
